@@ -15,7 +15,7 @@ public record DateRequestDto(
         String name,
 
 
-        @NotBlank(message = "Activity is required")
+        @NotNull(message = "Activity is required")
         Activity activity,
 
 
