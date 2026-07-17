@@ -3,7 +3,8 @@ spring:
     name: date-planner-bff
 
 supabase:
-
+  url: ${SUPABASE_URL}
+  service-key: ${SUPABASE_SECRET_KEY}
 
 server:
-  port: 8082
+  port: 8080
