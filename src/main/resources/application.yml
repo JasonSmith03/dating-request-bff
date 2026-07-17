@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: date-planner-bff
+
+supabase:
+
+
+server:
+  port: 8082
