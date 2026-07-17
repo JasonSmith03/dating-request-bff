@@ -23,7 +23,7 @@ public class DateRequestService {
         Map<String,Object> body =
                 Map.of(
                         "name", request.name(),
-                        "activity", request.activity(),
+                        "activity", request.activity().getDisplayName(),
                         "date", request.date(),
                         "time", request.time()
                 );
